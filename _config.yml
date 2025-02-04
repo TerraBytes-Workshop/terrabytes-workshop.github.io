@@ -1,0 +1,51 @@
+
+#######
+# SITE SETTINGS
+#
+# title appears in the header
+title: Terrabytes
+# title-icon:  "terrabytes-logo"
+# description: "Towards global datasets and models for Earth Observation"
+featured-image: "terrabytes-logo"
+
+##########
+# URL VARIABLES [optional!!]
+#
+# Optional if using GitHub Pages! If building manually, these must be set correctly.
+# When using github pages just leave these blank!
+#
+# use url for the domain, e.g. https://evanwill.github.io
+# on gh-pages follow the pattern: https://username.github.io
+url:
+# use baseurl to add subsection of the domain, e.g. /workshop-template-b
+# on gh-pages this is a / followed by the name of the repository
+# baseurl is your github repository's name prefixed with a /
+baseurl:
+
+
+##########
+# GOOGLE ANALYTICS [optional!]
+#
+# leave this blank or comment out to NOT include google code
+google-analytics-id:
+
+##########
+# ROBOTS EXCLUDE [optional!]
+#
+# set noindex to true if you do NOT want Google to index your site
+# noindex: true 
+
+
+#######
+# BUILD SETTINGS [usually leave as is]
+#
+# Defaults to simplify front matter
+defaults:
+  - scope:
+      path: "content"
+    values:
+      layout: "page"
+# ignore stuff
+exclude: [README.md, LICENSE, assets/lib/README.md]
+# Build settings
+markdown: kramdown
