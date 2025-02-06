@@ -103,5 +103,5 @@ To be announced.
 
 We thank CopernicusLAC for their sponsorship of this event.
 
-{% include figure.html img="logo_copernicuslac_chile.png" alt="CopernicusLAC Chile sponsor" width="150%" %}
+{% include figure.html img="logo_copernicuslac_chile.png" alt="CopernicusLAC Chile sponsor" width="50%" %}{% include figure.html img="IADF.png" alt="IEEE IADF sponsor" width="50%" %}
 
