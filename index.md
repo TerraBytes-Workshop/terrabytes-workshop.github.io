@@ -90,7 +90,7 @@ It is expected that at least one author of each accepted paper will register for
 
 ### Organizers
 ---
-* [Nicolas Audebert, IGN, CNAM](https://nicolas.audebert.at)
+* [Nicolas Audebert, LASTIG, IGN](https://nicolas.audebert.at)
 * [Hossein Azizpour, KTH Royal Institute of Technology](https://www.csc.kth.se/~azizpour/)
 * [Valentin Barriere, University of Chile](https://www.copernicuslac-chile.eu/en/persona/valentin-barriere/)
 * [Javiera Castillo Navarro, CNAM](https://javi-castillo.github.io/)
