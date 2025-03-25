@@ -4,6 +4,15 @@ layout: page
 # *TerraBytes - Towards global datasets and models for Earth Observation*
 {% include figure.html img="organizers.jpg" alt="sponsors" width="150%" %}
 ---
+
+**ICML 2025 workshop on global datasets and models for Earth Observation**
+
+When: 18/19 July 2025
+
+Where: Vancouver, Canada
+
+Submission website: TBA
+
 ### About the workshop
 
 Earth Observation (EO) presents unique challenges and opportunities that set it apart from other fields of machine learning
