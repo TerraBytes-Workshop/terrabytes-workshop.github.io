@@ -12,8 +12,88 @@ $text-color: #111 !default;
 $link-color: #0d6efd !default;
 $base-font-size: 1.1rem;
 
-// limit container size to make reading easier (optional!)
-$container-max: 750px;
+$color_1: #333;
+$color_2: #444;
+$color_3: #fff;
+$font-family_1: 'Roboto', sans-serif;
+$background-color_1: #222;
+$background-color_2: #29abe2;
+$background-color_3: #2386b3;
+$border-color_1: #29abe2;
+$border-color_2: #2386b3;
+
+/* Align text to left and justify */
+/* Title and subtitle responsive font size */
+/* Smaller font size for smaller screens */
+/* Align the title to the left and stick it to the header image */
+/* Footer */
+/* Button Styles */
+body {
+	background: linear-gradient(135deg, rgba(41, 171, 226, 0.05),rgba(41, 171, 226, 0.5), rgba(97, 196, 110, 0.9));
+	color: $color_1;
+	margin: 0 20px;
+	font-family: $font-family_1;
+}
+header {
+	padding-top: 40px;
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+	}
+	h1 {
+		margin-left: 20px;
+		text-align: left;
+	}
+	h3 {
+		margin-left: 20px;
+		text-align: left;
+	}
+}
+.my-4 {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.section-content {
+	font-size: 1.2rem;
+	color: $color_2;
+	text-align: justify;
+	text-justify: inter-word;
+}
+h1.section-title {
+	font-size: 3rem;
+}
+.footer {
+	background-color: $background-color_1;
+	color: $color_3;
+	padding: 20px 0;
+}
+.buttons {
+	text-align: center;
+	margin-bottom: 15px;
+}
+.btn-primary {
+	background-color: $background-color_2;
+	border-color: $border-color_1;
+	&:hover {
+		background-color: $background-color_3;
+		border-color: $border-color_2;
+	}
+}
+@media (max-width: 768px) {
+	h1.section-title {
+		font-size: 2.2rem;
+	}
+}
+@media (max-width: 576px) {
+	h1.section-title {
+		font-size: 1.8rem;
+	}
+}
+
 
 // Import partials.
 @import

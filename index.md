@@ -1,27 +1,21 @@
 ---
 layout: page
 ---
-# *TerraBytes - Towards global datasets and models for Earth Observation*
-{% include figure.html img="organizers.jpg" alt="sponsors" width="150%" %}
----
-
-**ICML 2025 workshop on global datasets and models for Earth Observation**
-
-When: 18/19 July 2025
-
-Where: Vancouver, Canada
-
-Submission website: https://openreview.net/group?id=ICML.cc/2025/Workshop/TerraBytes
 
 <div class="buttons" id="sticky-nav">
-  <a class="button" href="#call-for-submissions">Submission Process</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="button" href="#dates">Important dates*</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="button" href="#schedule">Workshop Schedule</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="button" href="#speakers">Speakers</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="button" href="#organizers">Organizers</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="button" href="#sponsors">Sponsors</a>
+  <a class="button btn btn-primary" href="#call-for-submissions">Submission Process</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="button btn btn-warning" href="#dates">Important dates*</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="button btn btn-secondary" href="#schedule">Workshop Schedule</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="button btn btn-info" href="#speakers">Speakers</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="button btn btn-light" href="#organizers">Organizers</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="button btn btn-dark" href="#sponsors">Sponsors</a>
 </div>
 
+**When:** 18/19 July 2025
+
+**Where:** Vancouver, Canada
+
+**Submission website:** [OpenReview - TerraBytes 2025](https://openreview.net/group?id=ICML.cc/2025/Workshop/TerraBytes)
 
 ### About the workshop
 
@@ -116,11 +110,11 @@ TBA ...
 
 **Primary Contacts**: Valerio Marsocci (valerio.marsocci@esa.int), Nicolas Audebert (nicolas.audebert@ign.fr)
 
-<h3 id="sponsors">Sponsers</h3>
+<h3 id="sponsors">Sponsors</h3>
 ------
 
 We thank CopernicusLAC for their sponsorship of this event.
 
-{% include figure.html img="logo_copernicuslac_chile.png" alt="CopernicusLAC Chile sponsor" width="50%" %}
-{% include figure.html img="IADF.png" alt="IEEE IADF sponsor" width="50%" %}
+{% include figure.html img="logo_copernicuslac_chile.png" alt="CopernicusLAC Chile sponsor" width="25%" %}
+{% include figure.html img="IADF.png" alt="IEEE IADF sponsor" width="25%" %}
 
