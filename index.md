@@ -2,14 +2,6 @@
 layout: page
 ---
 
-**ICML 2025 workshop on global datasets and models for Earth Observation**
-
-When: 18/19 July 2025
-
-Where: Vancouver, Canada
-
-Submission website: [OpenReview - TerraBytes 2025](https://openreview.net/group?id=ICML.cc/2025/Workshop/TerraBytes)
-
 <div class="buttons" id="sticky-nav">
   <a class="button btn btn-primary" href="#call-for-submissions">Submission Process</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="button btn btn-warning" href="#dates">Important dates*</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -19,6 +11,11 @@ Submission website: [OpenReview - TerraBytes 2025](https://openreview.net/group?
   <a class="button btn btn-dark" href="#sponsors">Sponsors</a>
 </div>
 
+**When:** 18/19 July 2025
+
+**Where:** Vancouver, Canada
+
+**Submission website:** [OpenReview - TerraBytes 2025](https://openreview.net/group?id=ICML.cc/2025/Workshop/TerraBytes)
 
 ### About the workshop
 
@@ -113,11 +110,11 @@ TBA ...
 
 **Primary Contacts**: Valerio Marsocci (valerio.marsocci@esa.int), Nicolas Audebert (nicolas.audebert@ign.fr)
 
-<h3 id="sponsors">Sponsers</h3>
+<h3 id="sponsors">Sponsors</h3>
 ------
 
 We thank CopernicusLAC for their sponsorship of this event.
 
-{% include figure.html img="logo_copernicuslac_chile.png" alt="CopernicusLAC Chile sponsor" width="50%" %}
-{% include figure.html img="IADF.png" alt="IEEE IADF sponsor" width="50%" %}
+{% include figure.html img="logo_copernicuslac_chile.png" alt="CopernicusLAC Chile sponsor" width="25%" %}
+{% include figure.html img="IADF.png" alt="IEEE IADF sponsor" width="25%" %}
 

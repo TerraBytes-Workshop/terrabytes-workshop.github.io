@@ -50,6 +50,13 @@ header {
 		text-align: left;
 	}
 }
+.my-4 {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
 .section-content {
 	font-size: 1.2rem;
 	color: $color_2;
