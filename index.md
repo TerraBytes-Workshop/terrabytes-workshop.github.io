@@ -8,7 +8,7 @@ When: 18/19 July 2025
 
 Where: Vancouver, Canada
 
-Submission website: [https://openreview.net/group?id=ICML.cc/2025/Workshop/TerraBytes]
+Submission website: [OpenReview - TerraBytes 2025](https://openreview.net/group?id=ICML.cc/2025/Workshop/TerraBytes)
 
 <div class="buttons" id="sticky-nav">
   <a class="button btn btn-primary" href="#call-for-submissions">Submission Process</a>&nbsp;&nbsp;&nbsp;&nbsp;
