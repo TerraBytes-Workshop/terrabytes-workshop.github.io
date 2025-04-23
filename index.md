@@ -59,8 +59,10 @@ We invite submissions on the following topics:
 Submission to the TerraBytes workshop is **double-blind**. The workshop accepts short research papers (4 pages, excluding references) and full-length papers (8 pages, excluding references). Authors are required to follow standard ICML paper format ([LaTeX style files](https://media.icml.cc/Conferences/ICML2025/Styles/icml2025.zip)). Short research papers can described work in progress, opinion papers or  datasets and research papers that have been already published in another venue (conference or journal) in the last 6 months that are relevant the TerraBytes' topics of interest. For already published works, please submit a summarized four-pages short paper. We are especially looking to broadcast *journal papers* to a larger audience during the workshop.
 
 
-All submissions should be submitted through [OpenReview](https://openreview.net/group?id=ICML.cc/2025/Workshop/TerraBytes) before the deadline (see important dates below). 
-Note that the workshop will not publish proceedings under the ICML conference. However, **authors of accepted papers will be able to opt-in for a special issue comprised of the accepted full-length paper in [PMLR](https://proceedings.mlr.press/)**.
+All submissions should be submitted through [OpenReview](https://openreview.net/group?id=ICML.cc/2025/Workshop/TerraBytes) before the deadline (see important dates below).
+
+{% include figure.html img="https://proceedings.mlr.press/assets/images/logo-pmlr.svg" alt="PMLR Logo" width="25%" %}
+Note that the workshop will not publish proceedings under the ICML conference. However, **authors of accepted papers will be able to opt-in for a special issue comprised of the accepted full-length paper in [PMLR](https://proceedings.mlr.press/). Please note that accepted papers will not go through another reviewing process to be published in the PMLR volume.**
 All submissions will be reviewed by at least two non-conflicting reviewers. All papers will be presented during a dedicated poster session. Full-length papers and selected short papers will also be presented as spotlight presentations throughout the day.
 
 It is expected that at least one author of each accepted paper will register for the workshop and present the article during the event. Online presentations will be considered for presenters that are not allowed to come, e.g. to visa or personal constraints. If you have any questions, do not hesitate to contact the organizers (see contacts below).
