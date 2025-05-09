@@ -71,7 +71,7 @@ It is expected that at least one author of each accepted paper will register for
 ---
 * Papers submission deadline: **May 16th, 2025**
 * Papers acceptance notification: June 6, 2025
-* Workshop: July 18/19, 2025
+* Workshop: July 19, 2025
 
 <h3 id="schedule">Program</h3>
 ---
