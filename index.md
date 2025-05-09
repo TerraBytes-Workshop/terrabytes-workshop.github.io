@@ -11,7 +11,7 @@ layout: page
   <a class="button btn btn-dark" href="#sponsors">Sponsors</a>
 </div>
 
-**When:** 18/19 July 2025
+**When:** 19 July 2025
 
 **Where:** Vancouver, Canada
 
