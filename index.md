@@ -69,8 +69,10 @@ It is expected that at least one author of each accepted paper will register for
 
 <h3 id="dates">Important dates</h3>
 ---
-* Papers submission deadline: **May 16th, 2025**
-* Papers acceptance notification: June 6, 2025
+
+* Papers submission deadline: **May 23rd, 2025** (extension!) ~~**May 16th, 2025**~~
+* Papers acceptance notification: June 9, 2025
+* Camera-ready deadline: June 16, 2025
 * Workshop: July 19, 2025
 
 <h3 id="schedule">Program</h3>
