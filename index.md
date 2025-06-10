@@ -7,7 +7,7 @@ layout: page
   <a class="button btn btn-warning" href="#dates">Important dates*</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="button btn btn-secondary" href="#schedule">Workshop Schedule</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="button btn btn-info" href="#speakers">Speakers</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="button btn btn-light" href="#organizers">Organizers</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="button btn btn-light" href="#people">People</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="button btn btn-dark" href="#sponsors">Sponsors</a>
 </div>
 
@@ -100,7 +100,10 @@ It is expected that at least one author of each accepted paper will register for
 ---
 TBA ...
 
-<h3 id="organizers">Organizers</h3>
+<h3 id="people">People</h3>
+---
+
+<h4 id="organizers">Organizers</h4>
 ---
 * [Nicolas Audebert, LASTIG, IGN](https://nicolas.audebert.at)
 * [Hossein Azizpour, KTH Royal Institute of Technology](https://www.csc.kth.se/~azizpour/)
@@ -112,6 +115,66 @@ TBA ...
 * [Valerio Marsocci, ESA Phi Lab](https://sites.google.com/uniroma1.it/valeriomarsocci)
 * [Andrea Nascetti, KTH Royal Institute of Technology](https://www.kth.se/profile/nascetti)
 * [Ritu Yadav, KTH Royal Institute of Technology](https://www.linkedin.com/in/ritu-yadav-5a810158/)
+
+<h4 id="committee">Program committee</h4>
+---
+* Adam J Stewart, Technische Universität München
+* Alistair Francis, Asterisk Labs
+* Andrea Nascetti, KTH Royal Institute of Technology
+* Anna Jungbluth, European Space Agency
+* Arjun Rao, University of Colorado at Boulder
+* Arnaud Breloy, Conservatoire national des arts et métiers
+* Burak Ekim, Universität der Bundeswehr München
+* Cassio Fraga Dantas, INRAE
+* Cesar Aybar, Universidad de Valencia
+* Charlotte Pelletier, Université de Bretagne Sud
+* Diego Marcos, INRIA
+* Dino Ienco, National Institute for Agriculture, Environment and Food
+* Elliot Vincent, Institut national de l'information géographique et forestière
+* Emanuele Dalsasso, EPFL - EPF Lausanne
+* Eric Brune, KTH Royal Institute of Technology
+* Gencer Sumbul, EPFL - EPF Lausanne
+* Georges Le Bellier, Conservatoire national des arts et métiers
+* Guillaume Astruc, ENPC, Ecole Nationale des Ponts et Chausees
+* Heng Fang, KTH Royal Institute of Technology, Stockholm, Sweden
+* Hongruixuan Chen, The University of Tokyo
+* Jakob Gawlikowski, Technische Universität München (TUM)
+* Javiera Castillo Navarro, Conservatoire national des arts et métiers
+* Jente Bosmans, European Space Agency
+* Kelsey Doerksen, University of Oxford
+* Kriti Goyal, Apple
+* Loic Landrieu, Ecole Nationale des Ponts et Chausees
+* Lorenzo Papa, European Space Agency
+* Marc Rußwurm, Wageningen University
+* Marcin Kluczek, University of Warsaw
+* Mathilde Letard, Technische Universität München
+* Miguel Espinosa, University of Edinburgh, University of Edinburgh
+* Mikolaj Czerkawski, Asterisk Labs
+* Nicolas Audebert, Ecole Nationale des Sciences Géographiques
+* Nikolaos Dionelis, European Space Agency
+* Patrick Ebel, European Space Agency
+* Peter Jack Naylor, ESA
+* Pierre Adorni, IRISA, Université Bretagne Sud
+* Rachael Joanne Laidlaw, University of Bristol
+* Ramesh Nair, Planet Labs
+* Riccardo Contu, University of Roma "La Sapienza"
+* RITU YADAV, KTH Royal Institute of Technology
+* Robert Cowlishaw, University of Strathclyde
+* Ruben Cartuyvels, European Space Agency
+* Saba Gachpaz, University of Roma "La Sapienza"
+* Sebastian Gerard, KTH Royal Institute of Technology
+* Sebastian Hafner, University of Glasgow
+* Silvia Valero, IRD
+* Sophie Giffard-Roisin, University of Grenoble-Alpes
+* Sylvain Lobry, Université Paris Cité
+* Valentin Barriere, Universidad de Chile
+* Valerie Zermatten, EPFL - EPF Lausanne
+* Valerio Marsocci, European Space Agency
+* Vishal Nedungadi, Wageningen University
+* Vit Ruzicka, Department of Computer Science
+* Xikun Hu, National University of Defense Technology
+* Yuru Jia, KU Leuven
+* Zhuo Zheng, Stanford University
 
 **Primary Contacts**: Valerio Marsocci (valerio.marsocci@esa.int), Nicolas Audebert (nicolas.audebert@ign.fr)
 
