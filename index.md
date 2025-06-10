@@ -15,6 +15,8 @@ layout: page
 
 **Where:** Vancouver, Canada
 
+**Official workshop schedule on ICML website**: [ICML.cc - TerraBytes 2025](https://icml.cc/virtual/2025/workshop/39951)
+
 **Submission website:** [OpenReview - TerraBytes 2025](https://openreview.net/group?id=ICML.cc/2025/Workshop/TerraBytes)
 
 ### About the workshop
@@ -56,7 +58,7 @@ We invite submissions on the following topics:
 
 <h3 id="submissions">Submission process</h3>
 
-Submission to the TerraBytes workshop is **double-blind**. The workshop accepts short research papers (4 pages, excluding references) and full-length papers (8 pages, excluding references). Authors are required to follow standard ICML paper format ([LaTeX style files](https://media.icml.cc/Conferences/ICML2025/Styles/icml2025.zip)). Short research papers can described work in progress, opinion papers or  datasets and research papers that have been already published in another venue (conference or journal) in the last 6 months that are relevant the TerraBytes' topics of interest. For already published works, please submit a summarized four-pages short paper. We are especially looking to broadcast *journal papers* to a larger audience during the workshop.
+Submission to the TerraBytes workshop is **double-blind**. The workshop accepts short research papers (4 pages, excluding references) and full-length papers (8 pages, excluding references). Authors are required to follow standard ICML paper format ([LaTeX style files](https://media.icml.cc/Conferences/ICML2025/Styles/icml2025.zip)). Short research papers can described work in progress, opinion papers or datasets and research papers that have been already published in another venue (conference or journal) in the last 6 months that are relevant the TerraBytes' topics of interest. For already published works, please submit a summarized four-pages short paper. We are especially looking to broadcast *journal papers* to a larger audience during the workshop.
 
 
 All submissions should be submitted through [OpenReview](https://openreview.net/group?id=ICML.cc/2025/Workshop/TerraBytes) before the deadline (see important dates below).
@@ -72,7 +74,7 @@ It is expected that at least one author of each accepted paper will register for
 
 * Papers submission deadline: **May 23rd, 2025** (extension!) ~~**May 16th, 2025**~~
 * Papers acceptance notification: June 9, 2025
-* Camera-ready deadline: June 16, 2025
+* [Slides Live](https://wiki.eventhosts.cc/reference/slideslive-email) upload: June 15 23:59 AoE, 2025
 * Workshop: July 19, 2025
 
 <h3 id="schedule">Program</h3>
