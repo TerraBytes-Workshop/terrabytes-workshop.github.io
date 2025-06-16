@@ -74,7 +74,8 @@ It is expected that at least one author of each accepted paper will register for
 
 * Papers submission deadline: **May 23rd, 2025** (extension!) ~~**May 16th, 2025**~~
 * Papers acceptance notification: June 9, 2025
-* [Slides Live](https://wiki.eventhosts.cc/reference/slideslive-email) upload: June 15 23:59 AoE, 2025
+* Pre-recorded 5 minutes video: July 7th 23:59 AoE, 2025
+* Camera-ready: TBD
 * Workshop: July 19, 2025
 
 <h3 id="schedule">Program</h3>
