@@ -84,24 +84,106 @@ It is expected that at least one author of each accepted paper will register for
 **Morning session**
 
 * 9:00-9:10: Opening remarks
-* 9:10-9:50: Keynote: AI for Earth Observation
-* 9:50-10:10: Paper spotlights (best short papers)
+* 9:10-9:50: **Keynote: Sujit Roy** (NASA IMPACT)
+* 9:50-10:10: **Paper spotlights:** benchmarks and deployments
 * Coffe break
 * 10:40-11:20: Keynote: EO data curation and archiving
-* 11:20-12:00: Paper spotlights 1
+* 11:20-12:00: **Paper spotlights:** multimodality
 
 **Afternoon session**
 
-* 13:15-14:00: Paper spotlights 2
-* 14:00-15:00: Poster session
+* 13:15-14:00: **Paper spotlights:** new methods
+* 14:00-15:00: **Poster session**
 * Coffe break
 * 15:30-16:10: Keynote: Biases and diversity in ML for EO
-* 16:10-17:10: Panel session: Towards global models
-* 17:10-17:20: Closing remarks
+* 16:10-17:10: **Panel session:** Towards global geospatial models
+* 17:10-17:20: Feedback on the Copernicus program
+* 17:20-17:30: Closing remarks
 
 <h3 id="speakers">Speakers</h3>
 ---
+
+**Sujit Roy** (NASA IMPACT)
+> Dr. Sujit Roy works as a Lead AI Researcher and Computer Scientist at NASA’s Interagency Implementation and Advanced Concept Teams (IMPACT), where he leads the development of foundational models for analyzing satellite imagery, enhancing weather forecasting and Heliophysics, resulting in multiple practical scientific applications. Prior to his tenure at NASA IMPACT, Dr. Roy contributed to the field of Explainable AI at the University of Manchester. He received his PhD (UKIERI fellowship) in Computer Science from Ulster University in collaboration with the Indian Institute of Technology Kanpur, India. In his PhD, he contributed to the domain of Computational Neuroscience by developing algorithms for Advancing MEG- and EEG-Based Decoding of Motor Imagery for Practical Brain-Computer Interfaces. 
+
 TBA ...
+
+<h3 id="papers">Accepted papers</h3>
+
+<h4>Long papers</h4>
+
+Label-Efficient Hyperspectral Image Classification via Spectral FiLM Modulation of Low-Level Pretrained Diffusion Features
+*Yuzhen Hu, Biplab Banerjee, Saurabh Prasad*
+        
+Smoothing Continual Segmentation Oscillations with Latent Domain PPCA Decoder
+*Marie-Ange Boum, Pierre Fournier, Dawa Derksen, Stéphane Herbin*
+
+High-Resolution LFMC Maps for Wildfire Risk From Multimodal Earth Observation Data
+*Patrick Alan Johnson, Gabriel Tseng, Yawen Zhang, Heather Heward, Virginia Sjahli, Favyen Bastani, Joseph Redmon, Patrick Beukema*
+      
+Optimizing Cloud-to-GPU Throughput for Deep Learning With Earth Observation Data
+*Akram Zaytar, Caleb Robinson, Girmaw Abebe Tadesse, Tammy Glazer, Gilles HACHEME, Anthony Ortiz, Rahul M Dodhia, Juan M Lavista Ferres*
+
+Shaping Fine-Tuning of Geospatial Foundation Models: Effects of Label Availability and Temporal Resolution
+*Giovanni Castiglioni, Nicolás Gonzalo Isla Fernández, Cristian Buc Calderon, Javiera Castillo Navarro, Sébastien Lefèvre, Valentin Barriere*
+    
+The Cloud-Based Geospatial Benchmark: Challenges and LLM Evaluation
+*Jeffrey A. Cardille, Renee Johnston, Simon Ilyushchenko, Johan Kartiwa, Zahra Shamsi, Matthew Abraham, Khashayar Azad, Kainath Ahmed, Emma Bergeron Quick, Nuala Caughie, Noah Jencz, Karen Dyson, Andrea Puzzi Nicolau, Maria Fernanda Lopez-Ornelas, David Saah, Michael Brenner, Subhashini Venugopalan, Sameera S Ponda*
+    
+AirCast: Improving Air Pollution Forecasting Through Multi-Variable Data Alignment
+*Vishal Nedungadi, Muhammad Akhtar Munir, Marc Rußwurm, Ron Sarafian, Ioannis N. Athanasiadis, Yinon Rudich, Fahad Shahbaz Khan, Salman Khan*
+
+Resampling Augmentation for Time Series Contrastive Learning: Application to Remote Sensing
+*Antoine Saget, Baptiste Lafabregue, Antoine Cornuéjols, Pierre Gançarski*
+
+Deploying geospatial foundation models in the real world
+*Christina Butsko, Gabriel Tseng, Kristof Van Tricht, Giorgia Milli, David Rolnick, Ruben Cartuyvels, Inbal Becker Reshef, Zoltan Szantoi, Hannah Kerner*
+
+Where are the Whales: A Human-in-the-loop Detection Method for Identifying Whales in High-resolution Satellite Imagery
+*Caleb Robinson, Kimberly T. Goetz, Christin B. Khan, Meredith Sackett, Kathleen Leonard, Rahul M Dodhia, Juan M Lavista Ferres*
+
+Using Multiple Input Modalities can Improve Data-Efficiency and O.O.D. Generalization for ML with Satellite Imagery
+*Arjun Rao, Esther Rolf*
+
+<h4>Short papers</h4>
+High-Performance Lightweight Vision Models for Land Cover Classification with Coresets and Compression
+*Tushar Shinde*
+
+Enhancing Generative Seismic Modeling via Proposed Paired Dataset Construction Method
+*Jaehyuk Lee, Jaeheun Jung, Hanyoung Kim, Chang-Hae Jung, Donghun Lee*
+
+Less is More? Data Specialization for Self-Supervised Remote Sensing Models
+*Alvard Barseghyan, Ani Vanyan, Hakob Tamazyan, Evan Shelhamer, Hrant Khachatrian*
+
+Open-source federated learning across multi cloud environment
+*Leonardo P. Tizzei, Gabrielle Nyirjesy, Levente J Klein, Theodore van Kessel, Maciel Zortea, Marcus Freitag, ILDAR KHABIBRAKHMANOV, Hendrik Hamann, Kamal Das*
+
+A Multimodal Deep Learning Framework for Locating Nomadic Pastoralists to Strengthen Public Health Outreach
+*Benjamin Liu, Stace Maples, Jessie Kong, Francesco Fava, Nathaniel Jensen, Philemon Chelanga, Sergio Charles, Theodore Utomo, Kevin Zhu, James Hassell, Lance W. Robinson, Luke Glowacki, Michele Barry, Hannah Wild*
+
+GeoCrossBench: Cross-Band Generalization for Remote Sensing
+*Hakob Tamazyan, Ani Vanyan, Alvard Barseghyan, Anna Khosrovyan, Evan Shelhamer, Hrant Khachatrian*
+
+The Missing Piece: Standardising for AI-ready Earth Observation Datasets
+*Cesar Aybar, Julio Contreras, Chen Ma, Oscar J. Pellicer-Valero, Gonzalo Mateo-García, Luis Gómez-Chova, Gustau Camps-Valls, Nils Lehmann, Mikolaj Czerkawski, David Montero, Miguel D. Mahecha, Ingrid Aybar*
+
+Towards Scalable Foundation Model for Multi-modal and Hyperspectral Geospatial Data
+*Haozhe Si, Yuxuan Wan, Minh N. Do, Deepak Vasisht, Han Zhao, Hendrik Hamann*
+
+Galileo: Learning Global & Local Features of Many Remote Sensing Modalities
+*Gabriel Tseng, Anthony Fuller, Marlena Reil, Henry Herzog, Patrick Beukema, Favyen Bastani, James R Green, Evan Shelhamer, Hannah Kerner, David Rolnick*
+
+End-to-End Reconstruction of High-Resolution Temperature Data Using Physics-Guided Deep Learning
+*Shengjie Liu, Lu Zhang, Siqin Wang*
+
+Domain Adaptation for Onboard Cloud Segmentation in Thermal Earth Observation: Transfer Learning from Landsat to a CubeSat Constellation
+*Niklas Wölki, Lukas Kondmann, Christian Mollière, Martin Langer, Julia Gottfriedsen, Martin Werner*
+
+Landsat-Bench: Datasets and Benchmarks for Landsat Foundation Models
+*Isaac Corley, Lakshay Sharma, Ruth Crasto*
+
+Towards LLM Agents for Earth Observation
+*Chia Hsiang Kao, Wenting Zhao, Shreelekha Revankar, Samuel Speas, Snehal Bhagat, Rajeev Datta, Cheng Perng Phoo, Utkarsh Mall, Carl Vondrick, Kavita Bala, Bharath Hariharan*
 
 <h3 id="people">People</h3>
 ---
