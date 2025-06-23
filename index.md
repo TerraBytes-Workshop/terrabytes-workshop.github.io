@@ -161,7 +161,7 @@ It is expected that at least one author of each accepted paper will register for
 *Leonardo P. Tizzei, Gabrielle Nyirjesy, Levente J Klein, Theodore van Kessel, Maciel Zortea, Marcus Freitag, ILDAR KHABIBRAKHMANOV, Hendrik Hamann, Kamal Das*
 
 **A Multimodal Deep Learning Framework for Locating Nomadic Pastoralists to Strengthen Public Health Outreach**
-*Benjamin Liu, Stace Maples, Jessie Kong, Francesco Fava, Nathaniel Jensen, Philemon Chelanga, Sergio Charles, Theodore Utomo, Kevin Zhu, James Hassell, Lance W. Robinson, Luke Glowacki, Michele Barry, Hannah Wild*
+*Benjamin Liu, Stace Maples, Jessie Kong, Francesco Fava, Nathaniel Jensen, Philemon Chelanga, Sergio Charles, Theodore Utomo, Aritro Chatterjee, Kevin Zhu, James Hassell, Lance W. Robinson, Luke Glowacki, Michele Barry, Hannah Wild*
 
 **GeoCrossBench: Cross-Band Generalization for Remote Sensing**
 *Hakob Tamazyan, Ani Vanyan, Alvard Barseghyan, Anna Khosrovyan, Evan Shelhamer, Hrant Khachatrian*
