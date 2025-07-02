@@ -85,19 +85,19 @@ It is expected that at least one author of each accepted paper will register for
 
 * 9:00-9:10: Opening remarks
 * 9:10-9:50: **Keynote: Sujit Roy** (NASA IMPACT)
-* 9:50-10:10: **Paper spotlights:** benchmarks and deployments
+* 9:50-10:10: **Paper spotlights:** Benchmarks and Deployments
 * Coffe break
 * 10:40-11:20: **Keynote: Razvan Cosac** (ESA Ground Segment) *"From TerraBytes to PetaBytes: ESA Earth Observation Framework and Copernicus Data Ecosystem"*
-* 11:20-12:00: **Paper spotlights:** multimodality
+* 11:20-12:00: **Paper spotlights:** Multimodality
 
 **Afternoon session**
 
-* 13:15-14:00: **Paper spotlights:** new methods
+* 13:15-14:00: **Paper spotlights:** New Methods
 * 14:00-15:00: **Poster session**
-* Coffe break
-* 15:30-16:10: Keynote: Biases and diversity in ML for EO
-* 16:10-17:10: **Panel session:** Towards global geospatial models
-* 17:10-17:20: Feedback on the Copernicus program
+* Coffee break
+* 15:30-16:10: **Keynote: Erin Trochim** (University of Alaska Fairbanks) *"Building Trust in GeoAI and Earth Observations: Lessons from Complex Systems"*
+* 16:10-17:10: **Panel session:** *"Towards Global Geospatial Models"*
+* 17:10-17:20: European Space Agency [Copernicus AI Report](https://asterisk.coop/project-pages/project-copernicus-report.html): Stakeholder Feedback Session
 * 17:20-17:30: Closing remarks
 
 <h3 id="speakers">Speakers</h3>
@@ -108,6 +108,9 @@ It is expected that at least one author of each accepted paper will register for
 
 **Razvan Cosac** (ESA Ground Segment)
 > Razvan has a background in Earth Sciences and has been working in the Earth observation domain for the past 12 years. He joined the European Space Agency (ESA) in 2013 as a Young Graduate Trainee working as part of the Long Term Data Preservation programme. He then continued his career in industry, working on various ESA projects regarding the processing, consolidation, archiving and dissemination of EO satellite imagery. Razvan rejoined ESA in 2019 as Copernicus Ground Segment Engineer, where he contributed to the Copernicus Space Component (CSC) ESA Earth Observation Framework (EOF) and data management operations, focusing on the data access and dissemination activities. Razvan is currently managing several ESA CSC EOF service operations contracts in this domain, the largest and most impactful one being the coordination of the Copernicus Data Space Ecosystem (CDSE).
+
+**Erin Trochim** (University of Alaska Fairbanks)
+> Erin Trochim is a geospatial data scientist developing better data and decisions for energy and its uses in the north. She values a collaborative approach to research. During 2022, she was a project lead for the University of Washington’s Data Science for Social Good program and is a co-investigator for the NSF Research Experience for Undergraduates at ACEP. PredictFest, a hackathon event founded by Trochim, was most recently supported by NSF’s Navigating the New Arctic initiative. She was an inaugural Google Cloud Research Innovator in 2021. Trochim earned a Ph.D. in remote sensing and hydrology from UAF, supported by a NASA Earth and Space Science graduate fellowship. Her postdoctoral experience included producing permafrost information for policy application through the NSF SEARCH program with the Alaska Climate Adaptation Science Center. Present energy-related projects include the Railbelt Decarbonization study, the Arctic Energy Atlas, and creating environmental data for marine and hydrokinetic applications. Trochim is from Whitehorse, Yukon, Canada. Winter is her favorite season; her huskies keep her active with skijoring long distances, which helps during masters ski club training.
 
 <h3 id="papers">Accepted papers</h3>
 
