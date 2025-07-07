@@ -271,8 +271,8 @@ It is expected that at least one author of each accepted paper will register for
 <h3 id="sponsors">Sponsors</h3>
 ------
 
-We thank CopernicusLAC for their sponsorship of this event.
+We thank CopernicusLAC and CMM for their sponsorship of this event. This event received funding from Proyecto Basal ANID FB210005.
 
 {% include figure.html img="logo_copernicuslac_chile.png" alt="CopernicusLAC Chile sponsor" width="25%" %}
-{% include figure.html img="IADF.png" alt="IEEE IADF sponsor" width="25%" %}
+{% include figure.html img="logo_CMM_25_EN_color.png" alt="CMM CNRS sponsor" width="25%" %}
 
