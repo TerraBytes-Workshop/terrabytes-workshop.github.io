@@ -97,6 +97,10 @@ It is expected that at least one author of each accepted paper will register for
 * Coffee break
 * 15:30-16:10: **Keynote: Erin Trochim** (University of Alaska Fairbanks) *"Building Trust in GeoAI and Earth Observations: Lessons from Complex Systems"*
 * 16:10-17:10: **Panel session:** *"Towards Global Geospatial Models"*
+  * Ritwik Gupta, Incoming Assistant Professor at the University of Maryland
+  * Tanya Nair, Senior Machine Learning Engineer at Floodbase
+  * Ryan Avery,Senior Machine Learning Engineer at Wherobots
+  * Mikhail Klassen, Senior Machine Learning Engineer at Planet
 * 17:10-17:20: European Space Agency [Copernicus AI Report](https://asterisk.coop/project-pages/project-copernicus-report.html): Stakeholder Feedback Session
 * 17:20-17:30: Closing remarks
 
