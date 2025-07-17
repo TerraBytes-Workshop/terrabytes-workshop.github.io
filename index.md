@@ -84,7 +84,7 @@ It is expected that at least one author of each accepted paper will register for
 **Morning session**
 
 * 9:00-9:10: Opening remarks
-* 9:10-9:50: **Keynote: Sujit Roy** (NASA IMPACT)
+* 9:10-9:50: **Keynote: Sujit Roy** (NASA IMPACT) *"Building Scientific AI Foundation Models for Earth"*
 * 9:50-10:10: **Paper spotlights:** Benchmarks and Deployments
 * Coffe break
 * 10:40-11:20: **Keynote: Razvan Cosac** (ESA Ground Segment) *"From TerraBytes to PetaBytes: ESA Earth Observation Framework and Copernicus Data Ecosystem"*
