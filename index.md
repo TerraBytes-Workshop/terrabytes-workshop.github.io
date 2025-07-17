@@ -118,80 +118,82 @@ It is expected that at least one author of each accepted paper will register for
 
 <h3 id="papers">Accepted papers</h3>
 
+See all accepted papers on [OpenReview](https://openreview.net/group?id=ICML.cc%2F2025%2FWorkshop%2FTerraBytes).
+
 <h4>Long papers</h4>
 
-**Label-Efficient Hyperspectral Image Classification via Spectral FiLM Modulation of Low-Level Pretrained Diffusion Features**
+**Label-Efficient Hyperspectral Image Classification via Spectral FiLM Modulation of Low-Level Pretrained Diffusion Features** [OpenReview](https://openreview.net/forum?id=l9wTrSu9i9)
 *Yuzhen Hu, Biplab Banerjee, Saurabh Prasad*
         
-**Smoothing Continual Segmentation Oscillations with Latent Domain PPCA Decoder**
+**Smoothing Continual Segmentation Oscillations with Latent Domain PPCA Decoder** [OpenReview](https://openreview.net/forum?id=gLzh8JDIpp)
 *Marie-Ange Boum, Pierre Fournier, Dawa Derksen, Stéphane Herbin*
 
-**High-Resolution LFMC Maps for Wildfire Risk From Multimodal Earth Observation Data**
+**High-Resolution LFMC Maps for Wildfire Risk From Multimodal Earth Observation Data** [OpenReview](https://openreview.net/forum?id=DxVmDkRYTV)
 *Patrick Alan Johnson, Gabriel Tseng, Yawen Zhang, Heather Heward, Virginia Sjahli, Favyen Bastani, Joseph Redmon, Patrick Beukema*
       
-**Optimizing Cloud-to-GPU Throughput for Deep Learning With Earth Observation Data**
+**Optimizing Cloud-to-GPU Throughput for Deep Learning With Earth Observation Data** [OpenReview](https://openreview.net/forum?id=Kqse3quRaX)
 *Akram Zaytar, Caleb Robinson, Girmaw Abebe Tadesse, Tammy Glazer, Gilles HACHEME, Anthony Ortiz, Rahul M Dodhia, Juan M Lavista Ferres*
 
-**Shaping Fine-Tuning of Geospatial Foundation Models: Effects of Label Availability and Temporal Resolution**
+**Shaping Fine-Tuning of Geospatial Foundation Models: Effects of Label Availability and Temporal Resolution** [OpenReview](https://openreview.net/forum?id=CLTEaA2mtC)
 *Giovanni Castiglioni, Nicolás Gonzalo Isla Fernández, Cristian Buc Calderon, Javiera Castillo Navarro, Sébastien Lefèvre, Valentin Barriere*
     
-**The Cloud-Based Geospatial Benchmark: Challenges and LLM Evaluation**
+**The Cloud-Based Geospatial Benchmark: Challenges and LLM Evaluation** [OpenReview](https://openreview.net/forum?id=oaYShIy3Xe)
 *Jeffrey A. Cardille, Renee Johnston, Simon Ilyushchenko, Johan Kartiwa, Zahra Shamsi, Matthew Abraham, Khashayar Azad, Kainath Ahmed, Emma Bergeron Quick, Nuala Caughie, Noah Jencz, Karen Dyson, Andrea Puzzi Nicolau, Maria Fernanda Lopez-Ornelas, David Saah, Michael Brenner, Subhashini Venugopalan, Sameera S Ponda*
     
-**AirCast: Improving Air Pollution Forecasting Through Multi-Variable Data Alignment**
+**AirCast: Improving Air Pollution Forecasting Through Multi-Variable Data Alignment** [OpenReview](https://openreview.net/forum?id=bUJt8lifOT)
 *Vishal Nedungadi, Muhammad Akhtar Munir, Marc Rußwurm, Ron Sarafian, Ioannis N. Athanasiadis, Yinon Rudich, Fahad Shahbaz Khan, Salman Khan*
 
-**Resampling Augmentation for Time Series Contrastive Learning: Application to Remote Sensing**
+**Resampling Augmentation for Time Series Contrastive Learning: Application to Remote Sensing** [OpenReview](https://openreview.net/forum?id=K2AIo78B9V)
 *Antoine Saget, Baptiste Lafabregue, Antoine Cornuéjols, Pierre Gançarski*
 
-**Deploying geospatial foundation models in the real world**
+**Deploying geospatial foundation models in the real world** [OpenReview](https://openreview.net/forum?id=eHW9HWitP0)
 *Christina Butsko, Gabriel Tseng, Kristof Van Tricht, Giorgia Milli, David Rolnick, Ruben Cartuyvels, Inbal Becker Reshef, Zoltan Szantoi, Hannah Kerner*
 
-**Where are the Whales: A Human-in-the-loop Detection Method for Identifying Whales in High-resolution Satellite Imagery**
+**Where are the Whales: A Human-in-the-loop Detection Method for Identifying Whales in High-resolution Satellite Imagery** [OpenReview](https://openreview.net/forum?id=Qn3Zsu35Fu)
 *Caleb Robinson, Kimberly T. Goetz, Christin B. Khan, Meredith Sackett, Kathleen Leonard, Rahul M Dodhia, Juan M Lavista Ferres*
 
-**Using Multiple Input Modalities can Improve Data-Efficiency and O.O.D. Generalization for ML with Satellite Imagery**
+**Using Multiple Input Modalities can Improve Data-Efficiency and O.O.D. Generalization for ML with Satellite Imagery** [OpenReview](https://openreview.net/forum?id=p5nSQMPUyo)
 *Arjun Rao, Esther Rolf*
 
 <h4>Short papers</h4>
 
-**High-Performance Lightweight Vision Models for Land Cover Classification with Coresets and Compression**
+**High-Performance Lightweight Vision Models for Land Cover Classification with Coresets and Compression** [OpenReview](https://openreview.net/forum?id=fZ6Jj51tNj)
 *Tushar Shinde*
 
-**Enhancing Generative Seismic Modeling via Proposed Paired Dataset Construction Method**
+**Enhancing Generative Seismic Modeling via Proposed Paired Dataset Construction Method** [OpenReview](https://openreview.net/forum?id=JmT8P9nudc)
 *Jaehyuk Lee, Jaeheun Jung, Hanyoung Kim, Chang-Hae Jung, Donghun Lee*
 
-**Less is More? Data Specialization for Self-Supervised Remote Sensing Models**
+**Less is More? Data Specialization for Self-Supervised Remote Sensing Models** [OpenReview](https://openreview.net/forum?id=2nS8UcH2VG)
 *Alvard Barseghyan, Ani Vanyan, Hakob Tamazyan, Evan Shelhamer, Hrant Khachatrian*
 
-**Open-source federated learning across multi cloud environment**
+**Open-source federated learning across multi cloud environment** [OpenReview](https://openreview.net/forum?id=qcEiUMXZTn)
 *Leonardo P. Tizzei, Gabrielle Nyirjesy, Levente J Klein, Theodore van Kessel, Maciel Zortea, Marcus Freitag, ILDAR KHABIBRAKHMANOV, Hendrik Hamann, Kamal Das*
 
-**A Multimodal Deep Learning Framework for Locating Nomadic Pastoralists to Strengthen Public Health Outreach**
+**A Multimodal Deep Learning Framework for Locating Nomadic Pastoralists to Strengthen Public Health Outreach** [OpenReview](https://openreview.net/forum?id=qHf2txksNZ)
 *Benjamin Liu, Stace Maples, Jessie Kong, Francesco Fava, Nathaniel Jensen, Philemon Chelanga, Sergio Charles, Theodore Utomo, Aritro Chatterjee, Kevin Zhu, James Hassell, Lance W. Robinson, Luke Glowacki, Michele Barry, Hannah Wild*
 
-**GeoCrossBench: Cross-Band Generalization for Remote Sensing**
+**GeoCrossBench: Cross-Band Generalization for Remote Sensing** [OpenReview](https://openreview.net/forum?id=7MNndxX1Xq)
 *Hakob Tamazyan, Ani Vanyan, Alvard Barseghyan, Anna Khosrovyan, Evan Shelhamer, Hrant Khachatrian*
 
-**The Missing Piece: Standardising for AI-ready Earth Observation Datasets**
+**The Missing Piece: Standardising for AI-ready Earth Observation Datasets** [OpenReview](https://openreview.net/forum?id=HV6F0dsGLK)
 *Cesar Aybar, Julio Contreras, Chen Ma, Oscar J. Pellicer-Valero, Gonzalo Mateo-García, Luis Gómez-Chova, Gustau Camps-Valls, Nils Lehmann, Mikolaj Czerkawski, David Montero, Miguel D. Mahecha, Ingrid Aybar*
 
-**Towards Scalable Foundation Model for Multi-modal and Hyperspectral Geospatial Data**
+**Towards Scalable Foundation Model for Multi-modal and Hyperspectral Geospatial Data** [OpenReview](https://openreview.net/forum?id=PuOclbrcO6)
 *Haozhe Si, Yuxuan Wan, Minh N. Do, Deepak Vasisht, Han Zhao, Hendrik Hamann*
 
-**Galileo: Learning Global & Local Features of Many Remote Sensing Modalities**
+**Galileo: Learning Global & Local Features of Many Remote Sensing Modalities** [OpenReview](https://openreview.net/forum?id=a2Qn7lTYWL)
 *Gabriel Tseng, Anthony Fuller, Marlena Reil, Henry Herzog, Patrick Beukema, Favyen Bastani, James R Green, Evan Shelhamer, Hannah Kerner, David Rolnick*
 
-**End-to-End Reconstruction of High-Resolution Temperature Data Using Physics-Guided Deep Learning**
+**End-to-End Reconstruction of High-Resolution Temperature Data Using Physics-Guided Deep Learning** [OpenReview](https://openreview.net/forum?id=zMIlyzDf3p)
 *Shengjie Liu, Lu Zhang, Siqin Wang*
 
-**Domain Adaptation for Onboard Cloud Segmentation in Thermal Earth Observation: Transfer Learning from Landsat to a CubeSat Constellation**
+**Transfer Learning for Onboard Cloud Segmentation in Thermal Earth Observation: From Landsat to a CubeSat Constellation** [OpenReview](https://openreview.net/forum?id=XEfg5YE5Mw)
 *Niklas Wölki, Lukas Kondmann, Christian Mollière, Martin Langer, Julia Gottfriedsen, Martin Werner*
 
-**Landsat-Bench: Datasets and Benchmarks for Landsat Foundation Models**
+**Landsat-Bench: Datasets and Benchmarks for Landsat Foundation Models** [OpenReview](https://openreview.net/forum?id=ab70e2WB19)
 *Isaac Corley, Lakshay Sharma, Ruth Crasto*
 
-**Towards LLM Agents for Earth Observation**
+**Towards LLM Agents for Earth Observation** [OpenReview](https://openreview.net/forum?id=1ozeeVxfNd)
 *Chia Hsiang Kao, Wenting Zhao, Shreelekha Revankar, Samuel Speas, Snehal Bhagat, Rajeev Datta, Cheng Perng Phoo, Utkarsh Mall, Carl Vondrick, Kavita Bala, Bharath Hariharan*
 
 <h3 id="people">People</h3>
