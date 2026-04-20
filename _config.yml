@@ -46,6 +46,6 @@ defaults:
     values:
       layout: "page"
 # ignore stuff
-exclude: [README.md, LICENSE, assets/lib/README.md]
+exclude: [README.md, LICENSE, assets/lib/README.md, vendor, Gemfile, Gemfile.lock, .bundle]
 # Build settings
 markdown: kramdown
