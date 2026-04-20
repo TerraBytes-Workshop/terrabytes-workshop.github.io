@@ -1,1 +1,439 @@
-/* add your tweaks here! */
+/* =======================================================================
+   TerraBytes — custom refinements
+   ======================================================================= */
+
+$tb-accent:        #29abe2;
+$tb-accent-dark:   #1d7ba6;
+$tb-accent-deep:   #2386b3;
+$tb-green:         #5fb871;
+$tb-ink:           #1a2833;
+$tb-ink-soft:      #45535f;
+$tb-surface:       rgba(255, 255, 255, 0.82);
+$tb-surface-solid: #ffffff;
+$tb-border:        rgba(26, 40, 51, 0.12);
+
+$tb-display-font:  "Space Grotesk", "Roboto", sans-serif;
+
+/* ---------- Modern mesh background ------------------------------------- */
+
+body {
+    background:
+        radial-gradient(1100px 700px at 8% -5%, rgba(41, 171, 226, 0.28), transparent 60%),
+        radial-gradient(900px 700px at 105% 10%, rgba(95, 184, 113, 0.22), transparent 60%),
+        radial-gradient(1000px 800px at 50% 115%, rgba(35, 134, 179, 0.22), transparent 65%),
+        linear-gradient(180deg, #f4f8fb 0%, #eef4f1 60%, #e9f1ee 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* ---------- Page content container fix --------------------------------- */
+
+.my-4 {
+    padding-bottom: 2rem;
+    margin-bottom: 2.5rem !important;
+}
+
+/* ---------- Header polish ----------------------------------------------- */
+
+.site-header {
+    padding-bottom: 1.25rem;
+
+    &__logo {
+        max-width: 20vw;
+        max-height: 200px;
+    }
+
+    &__text {
+        h1.section-title {
+            line-height: 1.15;
+        }
+    }
+
+    &__edition {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.6rem;
+        margin-top: 0.25rem;
+        padding: 0.35rem 0.9rem;
+        background: rgba(255, 255, 255, 0.55);
+        border: 1px solid $tb-border;
+        border-radius: 999px;
+        font-weight: 500;
+        font-size: 1.15rem;
+        color: $tb-ink;
+    }
+
+    &__edition-icon {
+        max-height: 1.75rem;
+        width: auto;
+    }
+
+    &__date {
+        margin-top: 0.6rem;
+        color: $tb-ink-soft;
+        font-weight: 400;
+    }
+
+    &__orgs img {
+        height: auto;
+        object-fit: contain;
+        margin: 10px 20px 0 0;
+    }
+}
+
+.badge-edition-status {
+    display: inline-block;
+    padding: 0.15rem 0.55rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    background: $tb-accent;
+    border-radius: 999px;
+}
+
+/* ---------- Archive banner (2025 page) ---------------------------------- */
+
+.archive-banner {
+    background: linear-gradient(90deg, rgba(41, 171, 226, 0.12), rgba(95, 184, 113, 0.12));
+    border-left: 4px solid $tb-accent;
+    padding: 0.9rem 1.2rem;
+    border-radius: 0.35rem;
+    margin-bottom: 1.75rem;
+    color: $tb-ink;
+    font-size: 1rem;
+
+    a {
+        font-weight: 600;
+    }
+}
+
+/* ---------- Hero -------------------------------------------------------- */
+
+.tb-hero {
+    position: relative;
+    padding: 3rem 2rem 3.25rem;
+    margin: -0.5rem 0 2.5rem;
+    background:
+        radial-gradient(circle at 85% 15%, rgba(95, 184, 113, 0.32), transparent 55%),
+        radial-gradient(circle at 15% 90%, rgba(41, 171, 226, 0.32), transparent 55%),
+        linear-gradient(135deg,
+            rgba(31, 123, 160, 0.68)  0%,
+            rgba(42, 160, 184, 0.58) 55%,
+            rgba(58, 181, 140, 0.68) 100%);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow:
+        0 24px 48px -22px rgba(35, 134, 179, 0.35),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image:
+            radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+            radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        background-size: 28px 28px, 14px 14px;
+        background-position: 0 0, 7px 7px;
+        pointer-events: none;
+        opacity: 0.6;
+    }
+
+    > * { position: relative; }
+
+    &__eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.3rem 0.85rem;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 999px;
+        font-size: 0.78rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.92);
+    }
+
+    &__pulse {
+        display: inline-block;
+        width: 0.55rem;
+        height: 0.55rem;
+        border-radius: 50%;
+        background: $tb-green;
+        box-shadow: 0 0 0 0 rgba(95, 184, 113, 0.7);
+        animation: tb-pulse 2.2s infinite;
+    }
+
+    &__title {
+        margin: 1.25rem 0 0.75rem;
+        font-family: $tb-display-font;
+        font-size: clamp(3rem, 7vw, 5.25rem);
+        font-weight: 700;
+        line-height: 1.02;
+        letter-spacing: -0.025em;
+        color: #fff;
+    }
+
+    &__numeral {
+        display: inline-block;
+        margin-left: 0.35em;
+        padding: 0.05em 0.35em;
+        background: linear-gradient(135deg, $tb-accent, $tb-green);
+        color: #fff;
+        border-radius: 0.4rem;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        transform: translateY(-0.1em);
+        box-shadow: 0 10px 28px -14px rgba(41, 171, 226, 0.7);
+    }
+
+    &__lede {
+        font-size: 1.35rem;
+        line-height: 1.5;
+        color: rgba(255, 255, 255, 0.92);
+        max-width: 52rem;
+        margin-bottom: 1.75rem;
+
+        strong { color: #fff; }
+    }
+
+    &__meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.55rem;
+        margin-bottom: 2rem;
+    }
+
+    &__cta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+
+        .btn {
+            font-weight: 600;
+            padding: 0.65rem 1.4rem;
+            border-radius: 0.6rem;
+        }
+
+        .btn-outline-secondary {
+            color: #fff;
+            border-color: rgba(255, 255, 255, 0.4);
+
+            &:hover {
+                background: rgba(255, 255, 255, 0.1);
+                color: #fff;
+                border-color: rgba(255, 255, 255, 0.65);
+            }
+        }
+    }
+}
+
+.tb-chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.35rem 0.85rem;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 999px;
+    font-size: 0.92rem;
+    color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(6px);
+
+    &--accent {
+        background: rgba(41, 171, 226, 0.25);
+        border-color: rgba(41, 171, 226, 0.55);
+    }
+}
+
+@keyframes tb-pulse {
+    0%   { box-shadow: 0 0 0 0   rgba(95, 184, 113, 0.7); }
+    70%  { box-shadow: 0 0 0 10px rgba(95, 184, 113, 0); }
+    100% { box-shadow: 0 0 0 0   rgba(95, 184, 113, 0); }
+}
+
+/* ---------- Sections ---------------------------------------------------- */
+
+.tb-section {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+
+    &__title {
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: $tb-ink;
+        margin-bottom: 1.1rem;
+        padding-bottom: 0.55rem;
+        border-bottom: 3px solid;
+        border-image: linear-gradient(90deg, $tb-accent, $tb-green) 1;
+        display: inline-block;
+    }
+
+    p {
+        color: $tb-ink;
+        line-height: 1.65;
+    }
+}
+
+/* ---------- Edition cards ---------------------------------------------- */
+
+.tb-editions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.tb-edition {
+    position: relative;
+    padding: 1.5rem 1.5rem 1.25rem;
+    background: $tb-surface-solid;
+    border: 1px solid $tb-border;
+    border-radius: 0.85rem;
+    box-shadow: 0 4px 14px -8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    display: flex;
+    flex-direction: column;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 24px -14px rgba(0, 0, 0, 0.35);
+    }
+
+    &--current {
+        border-color: $tb-accent;
+        box-shadow: 0 10px 28px -14px rgba(41, 171, 226, 0.55);
+    }
+
+    &__badge {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        padding: 0.2rem 0.65rem;
+        font-size: 0.72rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: #fff;
+        background: $tb-accent;
+        border-radius: 999px;
+
+        &--past {
+            background: $tb-ink-soft;
+        }
+    }
+
+    &__title {
+        margin: 0 0 0.25rem;
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: $tb-ink;
+    }
+
+    &__venue {
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: $tb-accent-deep;
+        margin-bottom: 0.15rem;
+    }
+
+    &__date {
+        font-size: 0.9rem;
+        color: $tb-ink-soft;
+        margin-bottom: 0.85rem;
+    }
+
+    &__desc {
+        color: $tb-ink;
+        font-size: 0.98rem;
+        line-height: 1.55;
+        flex-grow: 1;
+    }
+
+    &__footer {
+        margin-top: 0.85rem;
+        font-size: 0.9rem;
+        color: $tb-ink-soft;
+    }
+}
+
+/* ---------- Organizers grid -------------------------------------------- */
+
+.tb-organizers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 0.25rem 0;
+    margin-top: 1.25rem;
+    border-top: 1px solid $tb-border;
+}
+
+.tb-org {
+    padding: 0.9rem 1rem;
+    border-bottom: 1px solid $tb-border;
+    transition: background 0.12s ease;
+
+    &:hover {
+        background: rgba(41, 171, 226, 0.05);
+    }
+
+    &__name {
+        font-weight: 600;
+        color: $tb-ink;
+        font-size: 1rem;
+        letter-spacing: -0.005em;
+    }
+
+    &__aff {
+        font-size: 0.85rem;
+        color: $tb-ink-soft;
+        margin-top: 0.15rem;
+        line-height: 1.4;
+    }
+}
+
+/* ---------- Subscribe / contact ---------------------------------------- */
+
+.tb-subscribe {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+
+    &__item {
+        padding: 1rem 1.25rem;
+        background: rgba(255, 255, 255, 0.6);
+        border: 1px solid $tb-border;
+        border-radius: 0.6rem;
+    }
+
+    &__label {
+        font-size: 0.78rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: $tb-accent-deep;
+        margin-bottom: 0.4rem;
+    }
+}
+
+/* ---------- Responsive tweaks ----------------------------------------- */
+
+@media (max-width: 576px) {
+    .tb-hero {
+        padding: 2.25rem 1.25rem 2.5rem;
+        border-radius: 0.75rem;
+
+        &__lede { font-size: 1.1rem; }
+    }
+
+    .site-header__edition {
+        font-size: 1rem;
+    }
+}
