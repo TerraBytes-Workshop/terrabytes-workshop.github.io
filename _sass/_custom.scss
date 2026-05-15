@@ -370,78 +370,117 @@ body {
     p { color: $tb-ink; line-height: 1.65; }
 
     &__deadline {
-        margin: 1rem 0 2rem;
-        padding: 1.4rem 1.6rem;
+        margin: 1.25rem 0 2.5rem;
+        padding: 1.75rem 2rem;
         background:
-            radial-gradient(circle at 0% 0%, rgba(41, 171, 226, 0.12), transparent 60%),
-            radial-gradient(circle at 100% 100%, rgba(95, 184, 113, 0.12), transparent 60%),
-            $tb-surface-solid;
-        border: 1px solid rgba(41, 171, 226, 0.35);
-        border-radius: 0.85rem;
-        box-shadow: 0 10px 28px -18px rgba(41, 171, 226, 0.4);
+            radial-gradient(circle at 0% 0%, rgba(41, 171, 226, 0.14), transparent 55%),
+            radial-gradient(circle at 100% 100%, rgba(95, 184, 113, 0.14), transparent 55%),
+            #ffffff;
+        border: 1px solid rgba(41, 171, 226, 0.4);
+        border-radius: 1rem;
+        box-shadow: 0 14px 34px -20px rgba(41, 171, 226, 0.45);
     }
 
     &__deadline-row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1.5rem 2rem;
+        display: grid;
+        grid-template-columns: minmax(180px, 1fr) minmax(220px, 1.4fr);
+        gap: 1.75rem 2.5rem;
         align-items: center;
-        justify-content: space-between;
     }
 
     &__deadline-label {
         font-size: 0.72rem;
         font-weight: 700;
         text-transform: uppercase;
-        letter-spacing: 0.12em;
+        letter-spacing: 0.14em;
         color: $tb-accent-deep;
-        margin-bottom: 0.25rem;
+        margin-bottom: 0.35rem;
     }
 
     &__deadline-date {
         font-family: $tb-display-font;
-        font-size: 2rem;
+        font-size: clamp(2rem, 4.5vw, 2.75rem);
         font-weight: 700;
         color: $tb-ink;
-        line-height: 1.1;
-        letter-spacing: -0.02em;
+        line-height: 1.05;
+        letter-spacing: -0.025em;
     }
 
     &__deadline-tz {
-        font-size: 0.88rem;
+        font-size: 0.9rem;
         color: $tb-ink-soft;
-        margin-top: 0.15rem;
+        margin-top: 0.35rem;
     }
 
     &__deadline-meta {
-        font-size: 0.92rem;
+        font-size: 0.95rem;
         color: $tb-ink-soft;
-        line-height: 1.6;
+        line-height: 1.7;
+        padding-left: 1.5rem;
+        border-left: 2px solid rgba(41, 171, 226, 0.25);
 
+        > div { padding: 0.1rem 0; }
         strong { color: $tb-ink; }
     }
 
     &__heading {
-        margin-top: 1.75rem;
-        margin-bottom: 0.6rem;
-        font-size: 1.25rem;
-        font-weight: 700;
+        position: relative;
+        margin-top: 2.25rem;
+        margin-bottom: 0.85rem;
+        padding-left: 0.85rem;
+        font-family: $tb-display-font;
+        font-size: 1.35rem;
+        font-weight: 600;
         color: $tb-ink;
+        letter-spacing: -0.01em;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.35em;
+            bottom: 0.35em;
+            width: 4px;
+            background: linear-gradient(180deg, $tb-accent, $tb-green);
+            border-radius: 2px;
+        }
     }
 
     &__topics {
-        margin-bottom: 0.5rem;
+        list-style: none;
+        padding-left: 0;
+        margin: 0.5rem 0 0.5rem;
 
         > li {
-            margin-bottom: 0.5rem;
+            position: relative;
+            margin-bottom: 1rem;
+            padding: 0.85rem 1rem 0.85rem 1.1rem;
+            background: rgba(255, 255, 255, 0.55);
+            border: 1px solid $tb-border;
+            border-left: 3px solid $tb-accent;
+            border-radius: 0.5rem;
             color: $tb-ink;
 
-            > strong { color: $tb-ink; }
+            &:nth-child(2) { border-left-color: #4ba3ce; }
+            &:nth-child(3) { border-left-color: $tb-green; }
+
+            > strong {
+                display: block;
+                color: $tb-ink;
+                font-size: 1.02rem;
+                margin-bottom: 0.4rem;
+            }
 
             ul {
-                margin-top: 0.15rem;
-                margin-bottom: 0.45rem;
+                margin: 0;
+                padding-left: 1.1rem;
+                list-style: disc;
                 color: $tb-ink-soft;
+                font-size: 0.95rem;
+                line-height: 1.55;
+
+                li { margin-bottom: 0.2rem; }
+                li::marker { color: rgba(41, 171, 226, 0.6); }
             }
         }
     }
@@ -452,14 +491,33 @@ body {
         margin-top: 0.6rem;
 
         li {
-            padding: 0.4rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            padding: 0.55rem 0;
             border-bottom: 1px dashed $tb-border;
             color: $tb-ink;
 
             &:last-child { border-bottom: none; }
 
-            strong { color: $tb-ink; }
+            strong {
+                min-width: 14rem;
+                color: $tb-accent-deep;
+                font-weight: 600;
+            }
         }
+    }
+}
+
+@media (max-width: 640px) {
+    .tb-cfp__deadline-row {
+        grid-template-columns: 1fr;
+    }
+    .tb-cfp__deadline-meta {
+        padding-left: 0;
+        padding-top: 1rem;
+        border-left: none;
+        border-top: 2px solid rgba(41, 171, 226, 0.25);
     }
 }
 

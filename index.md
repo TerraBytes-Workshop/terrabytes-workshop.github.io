@@ -154,7 +154,7 @@ description: "TerraBytes II — the workshop on global datasets and models for E
     volume</strong> (opt-in). Authors who prefer their paper to remain non-archival
     &mdash; for example to preserve future submission options &mdash; may choose that
     route instead. Exact details (proceedings venue, formatting requirements) are being
-    finalized and will be announced here.
+    finalised and will be announced here.
   </p>
 </section>
 
@@ -164,8 +164,8 @@ description: "TerraBytes II — the workshop on global datasets and models for E
     <div class="tb-subscribe__item">
       <div class="tb-subscribe__label">📧 Contact</div>
       <div>
-        Questions or interested in helping organize or review? Write to the primary
-        organizers: <a href="mailto:miko@asterisk.coop">miko@asterisk.coop</a>,
+        Questions or interested in helping organise or review? Write to the primary
+        organisers: <a href="mailto:miko@asterisk.coop">miko@asterisk.coop</a>,
         <a href="mailto:nicolas.audebert@ign.fr">nicolas.audebert@ign.fr</a>.
       </div>
     </div>
@@ -214,7 +214,7 @@ description: "TerraBytes II — the workshop on global datasets and models for E
 </section>
 
 <section id="organizers" class="tb-section">
-  <h2 class="tb-section__title">Organizers</h2>
+  <h2 class="tb-section__title">Organisers</h2>
   <div class="tb-organizers">
     <div class="tb-org">
       <div class="tb-org__name">Valerio Marsocci</div>
