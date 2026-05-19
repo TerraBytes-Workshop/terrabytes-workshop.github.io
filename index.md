@@ -64,8 +64,8 @@ description: "TerraBytes II — the workshop on global datasets and models for E
       </div>
       <div class="tb-cfp__deadline-meta">
         <div><strong>Format</strong> &middot; ECCV 2026 LaTeX style</div>
-        <div><strong>Short papers</strong> &middot; 4 pages (excl. references)</div>
-        <div><strong>Full papers</strong> &middot; 8 pages (excl. references)</div>
+        <div><strong>Short papers</strong> &middot; 8 pages (excl. references)</div>
+        <div><strong>Full papers</strong> &middot; 14 pages (excl. references)</div>
         <div><strong>Submissions</strong> &middot; OpenReview (link coming soon)</div>
       </div>
     </div>
@@ -114,8 +114,8 @@ description: "TerraBytes II — the workshop on global datasets and models for E
   <h3 class="tb-cfp__heading">Submission process</h3>
   <p>
     Submission to the TerraBytes workshop is <strong>double-blind</strong>. We accept
-    <strong>short papers</strong> (4 pages excluding references) and
-    <strong>full-length papers</strong> (8 pages excluding references). Authors must
+    <strong>short papers</strong> (8 pages excluding references) and
+    <strong>full-length papers</strong> (14 pages excluding references). Authors must
     follow the standard ECCV 2026 paper format (LaTeX style files will be linked here
     once released by the conference).
   </p>
@@ -123,7 +123,7 @@ description: "TerraBytes II — the workshop on global datasets and models for E
     Short papers can describe work in progress, opinion pieces, or datasets and research
     papers that have been published in another venue (conference or journal) within the
     last 6 months on topics relevant to TerraBytes. For already-published work, please
-    submit a summarized four-page short paper &mdash; <strong><em>journal papers</em> are
+    submit a summarised short paper &mdash; <strong><em>journal papers</em> are
     particularly welcome, as the workshop is a great venue to bring them to a wider
     audience.</strong>
   </p>
