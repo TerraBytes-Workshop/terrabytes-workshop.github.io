@@ -66,7 +66,7 @@ description: "TerraBytes II — the workshop on global datasets and models for E
         <div><strong>Format</strong> &middot; ECCV 2026 LaTeX style</div>
         <div><strong>Short papers</strong> &middot; 8 pages (excl. references)</div>
         <div><strong>Full papers</strong> &middot; 14 pages (excl. references)</div>
-        <div><strong>Submissions</strong> &middot; OpenReview (link coming soon)</div>
+        <div><strong>Submissions</strong> &middot; <a href="https://openreview.net/group?id=thecvf.com%252FECCV%252F2026%252FWorkshop%252FTerraBytes_II">OpenReview</a> </div>
       </div>
     </div>
   </div>
@@ -128,7 +128,7 @@ description: "TerraBytes II — the workshop on global datasets and models for E
     audience.</strong>
   </p>
   <p>
-    All submissions go through <strong>OpenReview</strong> <em>(link coming soon)</em>.
+    All submissions go through <strong><a href="https://openreview.net/group?id=thecvf.com%252FECCV%252F2026%252FWorkshop%252FTerraBytes_II">OpenReview</a></strong>.
     Each paper is reviewed by at least two non-conflicting reviewers. All accepted papers
     are presented in a dedicated poster session; full-length papers and selected short
     papers will also be given spotlight presentations throughout the day.
