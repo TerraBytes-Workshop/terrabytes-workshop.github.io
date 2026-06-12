@@ -187,6 +187,13 @@ description: "TerraBytes II — the workshop on global datasets and models for E
     papers will also be given spotlight presentations throughout the day.
   </p>
   <p>
+    <strong>Supplementary material</strong> may be uploaded alongside the paper via
+    OpenReview and will be published with accepted submissions. Reviewers <em>may</em>
+    consult supplementary material but are under no obligation to do so &mdash;
+    <strong>the paper itself must be self-contained</strong> and stand on its own merits
+    during review.
+  </p>
+  <p>
     It is expected that at least one author of each accepted paper will register for the
     workshop and present the paper in person. Online presentations will be considered for
     presenters who cannot travel (e.g. visa or personal constraints).

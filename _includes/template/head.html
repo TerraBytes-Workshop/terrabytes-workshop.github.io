@@ -30,7 +30,7 @@
 
 {% if layout.gallery == true or page.gallery == true %}<link rel="stylesheet" href="{{ '/assets/lib/spotlight.min.css' | relative_url }}">{% endif %}
 <link rel="stylesheet" href="{{ '/assets/lib/bootstrap.min.css' | relative_url }}" type="text/css">
-<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
