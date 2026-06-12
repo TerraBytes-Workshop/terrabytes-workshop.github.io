@@ -677,6 +677,51 @@ body {
     }
 }
 
+/* ---------- Supporters (subtle sponsorship block) ---------------------- */
+
+.tb-supporters {
+    margin: 3rem 0 1rem;
+    padding-top: 1.75rem;
+    border-top: 1px solid $tb-border;
+    text-align: center;
+    opacity: 0.85;
+
+    &__label {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        color: $tb-ink-soft;
+        margin-bottom: 1rem;
+    }
+
+    &__logos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        a {
+            display: inline-flex;
+            align-items: center;
+            transition: opacity 0.15s ease, transform 0.15s ease;
+            opacity: 0.78;
+
+            &:hover {
+                opacity: 1;
+                transform: translateY(-1px);
+            }
+        }
+
+        img {
+            max-height: 48px;
+            width: auto;
+            object-fit: contain;
+        }
+    }
+}
+
 /* ---------- Subscribe / contact ---------------------------------------- */
 
 .tb-subscribe {

@@ -314,3 +314,12 @@ description: "TerraBytes II — the workshop on global datasets and models for E
     </div>
   </div>
 </section>
+
+<section id="supporters" class="tb-supporters">
+  <div class="tb-supporters__label">Supported by</div>
+  <div class="tb-supporters__logos">
+    <a href="https://www.rymdstyrelsen.se/en/" target="_blank" rel="noopener" title="Swedish National Space Agency">
+      <img src="{{ '/images/logo-rymdstyrelsen.png' | relative_url }}" alt="Rymdstyrelsen — Swedish National Space Agency" />
+    </a>
+  </div>
+</section>
