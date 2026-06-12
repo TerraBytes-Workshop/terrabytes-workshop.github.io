@@ -203,8 +203,8 @@ description: "TerraBytes II — the workshop on global datasets and models for E
   <p><em>All deadlines are <strong>23:59 Anywhere on Earth</strong>.</em></p>
   <ul class="tb-cfp__dates">
     <li><strong>Paper submission deadline:</strong> <strong>25 June 2026</strong> <em>(extension!)</em> <del>18 June 2026</del></li>
-    <li><strong>Acceptance notification:</strong> 24 July 2026</li>
-    <li><strong>Camera-ready:</strong> 7 August 2026</li>
+    <li><strong>Acceptance notification:</strong> 23 July 2026</li>
+    <li><strong>Camera-ready:</strong> 6 August 2026</li>
     <li><strong>Workshop:</strong> 8 or 9 September 2026 <em>(final day TBC)</em></li>
   </ul>
 
