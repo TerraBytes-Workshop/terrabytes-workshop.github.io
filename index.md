@@ -24,7 +24,7 @@ description: "TerraBytes II — the workshop on global datasets and models for E
   </div>
   <div class="tb-hero__cta">
     <a class="btn btn-primary btn-lg" href="#cfp">Call for papers</a>
-    <a class="btn btn-secondary btn-lg" href="https://openreview.net/group?id=thecvf.com%2FECCV%2F2026%2FWorkshop%2FTerraBytes_II">Submission</a>
+    <a class="btn btn-openreview btn-lg" href="https://openreview.net/group?id=thecvf.com%2FECCV%2F2026%2FWorkshop%2FTerraBytes_II">Submission</a>
     <a class="btn btn-outline-secondary btn-lg" href="#about">About</a>
     <a class="btn btn-outline-secondary btn-lg" href="{{ '/2025/' | relative_url }}">2025 edition →</a>
   </div>
@@ -70,7 +70,46 @@ description: "TerraBytes II — the workshop on global datasets and models for E
         <div><strong>Submissions</strong> &middot; <a href="https://openreview.net/group?id=thecvf.com%2FECCV%2F2026%2FWorkshop%2FTerraBytes_II">OpenReview</a> </div>
       </div>
     </div>
+    <div class="tb-cfp__countdown" id="tb-countdown" data-deadline="2026-06-26T11:59:59Z" aria-live="polite">
+      <div class="tb-cfp__count-heading">Time remaining</div>
+      <div class="tb-cfp__count-cells">
+        <div class="tb-cfp__count-cell"><span class="tb-cfp__count-num js-days">--</span><span class="tb-cfp__count-unit">days</span></div>
+        <div class="tb-cfp__count-sep">:</div>
+        <div class="tb-cfp__count-cell"><span class="tb-cfp__count-num js-hours">--</span><span class="tb-cfp__count-unit">hrs</span></div>
+        <div class="tb-cfp__count-sep">:</div>
+        <div class="tb-cfp__count-cell"><span class="tb-cfp__count-num js-mins">--</span><span class="tb-cfp__count-unit">min</span></div>
+        <div class="tb-cfp__count-sep">:</div>
+        <div class="tb-cfp__count-cell"><span class="tb-cfp__count-num js-secs">--</span><span class="tb-cfp__count-unit">sec</span></div>
+      </div>
+    </div>
   </div>
+
+  <script>
+  (function () {
+    var box = document.getElementById("tb-countdown");
+    if (!box) return;
+    var deadline = new Date(box.dataset.deadline).getTime();
+    var $d = box.querySelector(".js-days");
+    var $h = box.querySelector(".js-hours");
+    var $m = box.querySelector(".js-mins");
+    var $s = box.querySelector(".js-secs");
+    var pad = function (n) { return n < 10 ? "0" + n : "" + n; };
+    function tick() {
+      var diff = deadline - Date.now();
+      if (diff <= 0) {
+        box.innerHTML = '<div class="tb-cfp__count-expired">Submission window closed</div>';
+        clearInterval(timer);
+        return;
+      }
+      $d.textContent = Math.floor(diff / 86400000);
+      $h.textContent = pad(Math.floor((diff % 86400000) / 3600000));
+      $m.textContent = pad(Math.floor((diff % 3600000) / 60000));
+      $s.textContent = pad(Math.floor((diff % 60000) / 1000));
+    }
+    tick();
+    var timer = setInterval(tick, 1000);
+  })();
+  </script>
 
   <p>
     We invite submissions to the second edition of TerraBytes, held in conjunction with
