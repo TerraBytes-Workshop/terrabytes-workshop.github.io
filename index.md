@@ -119,6 +119,18 @@ description: "TerraBytes II — the workshop on global datasets and models for E
     to training paradigms and downstream applications.
   </p>
 
+  <aside class="tb-cfp__note">
+    <div class="tb-cfp__note-label">Note on scope</div>
+    <p>
+      &ldquo;Global&rdquo; here refers to our shared planetary focus, not planetary-scale
+      coverage. <strong>Regional and domain-specific contributions are very welcome</strong>
+      &mdash; especially work on areas under-represented in current global Earth observation
+      datasets, such as the <strong>cryosphere</strong>, <strong>ocean</strong>, and
+      <strong>polar regions</strong>. We see these as essential pieces of the global picture,
+      not separate from it.
+    </p>
+  </aside>
+
   <h3 class="tb-cfp__heading">Topics of interest</h3>
   <p>We welcome submissions on (but not limited to):</p>
   <ul class="tb-cfp__topics">
@@ -126,6 +138,7 @@ description: "TerraBytes II — the workshop on global datasets and models for E
       <strong>Large-scale Earth observation datasets and benchmarks</strong>
       <ul>
         <li>curation of new large-scale vision datasets for EO,</li>
+        <li>datasets that close coverage gaps for under-represented regions or domains (e.g. cryosphere, ocean, polar),</li>
         <li>augmentation techniques for EO data and their impact on learning, data traceability, and expansion of existing datasets,</li>
         <li>re-use and adoption of existing datasets in new scenarios,</li>
         <li>impact of training data quality and size on downstream tasks under domain shifts.</li>

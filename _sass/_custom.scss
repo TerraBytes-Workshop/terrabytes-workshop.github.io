@@ -503,6 +503,30 @@ body {
         strong { color: $tb-ink; }
     }
 
+    &__note {
+        margin: 0.5rem 0 1.5rem;
+        padding: 1rem 1.25rem;
+        background: linear-gradient(90deg, rgba(95, 184, 113, 0.12), rgba(41, 171, 226, 0.08));
+        border-left: 4px solid $tb-green;
+        border-radius: 0.5rem;
+
+        p {
+            margin: 0;
+            color: $tb-ink;
+            font-size: 0.98rem;
+            line-height: 1.6;
+        }
+    }
+
+    &__note-label {
+        font-size: 0.72rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        color: #2f8f4d;
+        margin-bottom: 0.4rem;
+    }
+
     &__heading {
         position: relative;
         margin-top: 2.25rem;
