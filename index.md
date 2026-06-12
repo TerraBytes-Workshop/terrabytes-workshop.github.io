@@ -20,7 +20,7 @@ description: "TerraBytes II — the workshop on global datasets and models for E
   <div class="tb-hero__meta">
     <span class="tb-chip">📅 8 or 9 Sept 2026</span>
     <span class="tb-chip">📍 Malmö, Sweden</span>
-    <span class="tb-chip tb-chip--accent">📣 CFP open &middot; deadline 18 June 2026 AoE</span>
+    <span class="tb-chip tb-chip--accent">📣 CFP open &middot; deadline 25 June 2026 AoE <del>18 June</del></span>
   </div>
   <div class="tb-hero__cta">
     <a class="btn btn-primary btn-lg" href="#cfp">Call for papers</a>
@@ -60,7 +60,7 @@ description: "TerraBytes II — the workshop on global datasets and models for E
     <div class="tb-cfp__deadline-row">
       <div>
         <div class="tb-cfp__deadline-label">Submission deadline</div>
-        <div class="tb-cfp__deadline-date">18 June 2026</div>
+        <div class="tb-cfp__deadline-date">25 June 2026 <span class="tb-cfp__deadline-old"><del>18 June</del></span></div>
         <div class="tb-cfp__deadline-tz">23:59 Anywhere on Earth</div>
       </div>
       <div class="tb-cfp__deadline-meta">
@@ -143,7 +143,7 @@ description: "TerraBytes II — the workshop on global datasets and models for E
   <h3 class="tb-cfp__heading">Important dates</h3>
   <p><em>All deadlines are <strong>23:59 Anywhere on Earth</strong>.</em></p>
   <ul class="tb-cfp__dates">
-    <li><strong>Paper submission deadline:</strong> 18 June 2026</li>
+    <li><strong>Paper submission deadline:</strong> <strong>25 June 2026</strong> <em>(extension!)</em> <del>18 June 2026</del></li>
     <li><strong>Acceptance notification:</strong> TBC</li>
     <li><strong>Camera-ready:</strong> TBC</li>
     <li><strong>Workshop:</strong> 8 or 9 September 2026 <em>(final day TBC)</em></li>

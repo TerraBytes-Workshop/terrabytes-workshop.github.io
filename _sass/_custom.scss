@@ -406,6 +406,17 @@ body {
         letter-spacing: -0.025em;
     }
 
+    &__deadline-old {
+        display: inline-block;
+        margin-left: 0.5rem;
+        font-family: "Roboto", sans-serif;
+        font-size: 0.95rem;
+        font-weight: 500;
+        color: $tb-ink-soft;
+        letter-spacing: 0;
+        vertical-align: middle;
+    }
+
     &__deadline-tz {
         font-size: 0.9rem;
         color: $tb-ink-soft;
