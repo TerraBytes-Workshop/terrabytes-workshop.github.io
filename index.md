@@ -2,7 +2,7 @@
 layout: page
 title: "TerraBytes II — ECCV 2026 Workshop"
 edition_badge: "ECCV 2026 Workshop"
-edition_date: "8 or 9 September 2026 &middot; Malmö, Sweden"
+edition_date: "8 September 2026 &middot; Malmö, Sweden"
 edition_status: "Announced"
 description: "TerraBytes II — the workshop on global datasets and models for Earth observation returns at ECCV 2026."
 ---
@@ -18,7 +18,7 @@ description: "TerraBytes II — the workshop on global datasets and models for E
     returns at <strong>ECCV 2026</strong> &mdash; this September in Malmö, Sweden.
   </p>
   <div class="tb-hero__meta">
-    <span class="tb-chip">📅 8 or 9 Sept 2026</span>
+    <span class="tb-chip">📅 8 September 2026</span>
     <span class="tb-chip">📍 Malmö, Sweden</span>
     <span class="tb-chip tb-chip--accent">📣 CFP open &middot; deadline 25 June 2026 AoE <del>18 June</del></span>
   </div>
@@ -205,7 +205,7 @@ description: "TerraBytes II — the workshop on global datasets and models for E
     <li><strong>Paper submission deadline:</strong> <strong>25 June 2026</strong> <em>(extension!)</em> <del>18 June 2026</del></li>
     <li><strong>Acceptance notification:</strong> 23 July 2026</li>
     <li><strong>Camera-ready:</strong> 6 August 2026</li>
-    <li><strong>Workshop:</strong> 8 or 9 September 2026 <em>(final day TBC)</em></li>
+    <li><strong>Workshop:</strong> 8 September 2026 <em>(full day)</em></li>
   </ul>
 
   <h3 class="tb-cfp__heading">Proceedings</h3>
@@ -247,7 +247,7 @@ description: "TerraBytes II — the workshop on global datasets and models for E
       <div class="tb-edition__badge">Upcoming</div>
       <h3 class="tb-edition__title">TerraBytes II</h3>
       <div class="tb-edition__venue">ECCV 2026 Workshop</div>
-      <div class="tb-edition__date">8 or 9 September 2026 &middot; Malmö, Sweden</div>
+      <div class="tb-edition__date">8 September 2026 &middot; Malmö, Sweden</div>
       <p class="tb-edition__desc">
         Second edition of TerraBytes, returning to build on the momentum of 2025.
         The main ECCV conference runs 8&ndash;13 September at the Malmö Arena and
